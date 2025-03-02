@@ -41,7 +41,6 @@ function handleGoBack(results) {
             memory.currentFrame = memory.history[memory.history.length-2];
             memory.history.pop();
             memory.history.pop();
-            console.log("Doves cry: "+memory.history)
             goBackButton.removeEventListener("click", bHandle);
             results();
         }
