@@ -174,9 +174,9 @@ const frames = {
         useImage: "uan1.jpg",
         mainText: "You catch and eat Tinker Bell. You are now magical!",
         lButton: "Play",
-        leftOp: "sap1",
+        leftOp: "s1",
         rButton: "Again",
-        rightOp: "uan1",
+        rightOp: "s1",
         handleFrame: () => {return new Promise((results) => {const me = frames[memory.currentFrame];handleFrameAction(me, results);}) }
     },
     smmw1: {
